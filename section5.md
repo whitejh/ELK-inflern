@@ -13,7 +13,7 @@
 가상환경을 만들어놓으면 운영팀이 운영하기 쉬워진다.  
 vmware나 vbox를 사용하게 되면 단점으로는 무겁다. 하드웨어를 추상화시키셔 부하가 심해진다. 
 
-![12](./img/12.png)  
+![12](https://user-images.githubusercontent.com/56130599/89104161-1ef4fc00-d452-11ea-8289-3b1e5983ea37.PNG)    
 
 위의 그림은 vmware와 container다.
 vmware은 운영체제가 굉장히 크게 들어간다.  
@@ -30,7 +30,9 @@ hypervisor 대신에 docker engine이 들어가게 되면 container라는 것을
 
 ## 서비스 아키텍쳐
 Monolith(모놀리식), Microservices(마이크로서비스)   
-![13](./img/13.png)    
+   
+![13](https://user-images.githubusercontent.com/56130599/89104170-2caa8180-d452-11ea-905b-f77f9af96f6c.PNG)   
+      
 기존에는 모놀리식을 많이 쓰고 있었다.   
 모놀리식이라는 플랫폼은 마이크로서비스들을 보통 하나의 어플리케이션에 넣고 다 같이 만든다.  
 단점 : 한 번 컴파일하면 테스팅 시간이 오래 걸린다. 버그 발생하면 하루종일 점검해야 된다.
