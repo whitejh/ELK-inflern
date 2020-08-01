@@ -13,7 +13,7 @@
 가상환경을 만들어놓으면 운영팀이 운영하기 쉬워진다.  
 vmware나 vbox를 사용하게 되면 단점으로는 무겁다. 하드웨어를 추상화시키셔 부하가 심해진다. 
 
-![service](./img/vmcontainer.png)
+![vmcontainer](./img/vmcontainer.png)
 
 위의 그림은 vmware와 container다.
 vmware은 운영체제가 굉장히 크게 들어간다.  
