@@ -113,6 +113,12 @@ filebeat의 인풋 설정 type두번째를 넣고싶으면 -로 시작되는 typ
 
 ![image](https://user-images.githubusercontent.com/56130599/89098959-d6741900-d426-11ea-9e30-6bc232299a97.png)   
 
+elasticsearch와 직접 연결하지 않기 때문에 주석처리
+
+logstash output을 활성화 한다.
+
+거의 대부분이 5044의 포트를 활용하기 때문에 host처리
+
 #로 주석 처리되어있던 output.logstash를 주석해제하고 활성화 시킨다.
 
 ![image](https://user-images.githubusercontent.com/56130599/89098974-04595d80-d427-11ea-9571-02d1d512ca10.png)    
