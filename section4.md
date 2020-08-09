@@ -138,59 +138,59 @@ Process terminated(종료 시간)은 중요할 수도 있다.
 ![24](./img/24.PNG)
 
 ## 필터링 실습
-![25](./img/25.png)
+![25](./img/25.PNG)
 
 ## 필터링 정의 실습
-![26](./img/26.png)
+![26](./img/26.PNG)
 요구사항
 
-![27](./img/27.png)
+![27](./img/27.PNG)
 conf 설정 값
 
-![28](./img/28.png)
+![28](./img/28.PNG)
 성공적인 적용!
 
 # SysmonTools 소개와 설치
 오픈소스이고 가장 쉬운 시각화 프로그램
-![29](./img/29.png)
+![29](./img/29.PNG)
 
 ### 시스몬 뷰 사용법
-![30](./img/30.png)
-![31](./img/31.png)  
+![30](./img/30.PNG)
+![31](./img/31.PNG)  
 
 - Process View : 시스몬 뷰에 포함되어 있는 탭   
 - 탭에 있는 프로세스들을 클릭하면 해당 프로세스 어떤 행위를 했는지 알려준다.   
 - 위의 화면 notepad의 행위.
 
-![32](./img/32.png) 
-![33](./img/33.png) 
-![34](./img/34.png)   
+![32](./img/32.PNG) 
+![33](./img/33.PNG) 
+![34](./img/34.PNG)   
 - xml 파일로 Sysmon 로그들을 내보낼 수 있다.
 
-![35](./img/35.png)  
+![35](./img/35.PNG)  
 
 ## 실습과정
-![41](./img/41.png)     
+![41](./img/41.PNG)     
 sysmon shell은 processcreate 등의 이벤트들을 각각의 xml을 정의해야하는데
 그런 xml을 쉽게 정의할 수 있도록 해주는 프로그램
 xml을 구현하거나 log export를 할 수 있다.
 처음에 파일을 채취하거나 구성할 때 유용하게 쓸 수 있다.
 
-![42](./img/42.png)    
+![42](./img/42.PNG)    
 shell에서 rule을 정의하는 화면      
-![43](./img/43.png)     
+![43](./img/43.PNG)     
 Export Sysmon logs : 로그들을 xml파일로 추출   
-![44](./img/44.png)    
+![44](./img/44.PNG)    
 처음 불러 오는 데이터는 Import Sysmon Event logs를 누르고  
 import한 데이터를 또 불러올려면 Load existing data를 누른다.   
-![45](./img/45.png)      
+![45](./img/45.PNG)      
 Geolocate IP에 체크를 해야 네트워크 ip가 좌표로 찍힌다.
 
 ## Windows EVTX Samples 분석 (이벤트 샘플 분석)
-![36](./img/36.png)      
-![37](./img/37.png) 
+![36](./img/36.PNG)      
+![37](./img/37.PNG) 
 샘플을 sysmon view에 불러온 결과    
-![38](./img/38.png)     
+![38](./img/38.PNG)     
 위의 화면을 보면 cmd로부터 실행이 되었고      
 jscript9.dll을 report한 것을 알 수 있다.
 
@@ -198,15 +198,15 @@ cmd에서 command line(명령어)에 어떻게 입력됬는지 보고 뷰어를 
 악성코드들이 보통 temp 경로를 많이 이용.   
 dll 파일이 언제 쓰여졌는지 이런 것도 확인 꼭 하기.
 
-![39](./img/39.png)   
+![39](./img/39.PNG)   
 두번째 실습 계층구조 예시
 
-![40](./img/40.png)   
+![40](./img/40.PNG)   
 가장 먼저 process create, registry value set 등을 먼저 보기! - 시간 순서로 정렬한 뒤에    
 
 ## 윈도우 클라이언트 ELK 연동 실습과 시각화
-![46](./img/46.png)    
+![46](./img/46.PNG)    
 sudo -i : 관리자 권한으로 실행하는 것   
 
-![47](./img/47.png) 
+![47](./img/47.PNG) 
 sysmon.conf 파일을 통해서 또 하나의 포트를 열고 그것으로 통신하도록 구현
