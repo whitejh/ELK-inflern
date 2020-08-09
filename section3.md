@@ -80,7 +80,10 @@ ip를 가져와서 source를 가져와서 (좌표가 나오고 저장)
 ![image](https://user-images.githubusercontent.com/56130599/89098878-3b7b3f00-d426-11ea-9b9f-e0fe28bb8103.png)   
 HTTP프로토콜로 알아서 전송   
 hosts를 분산형태이기 때문에 여러곳으로 보낼 수 있음.   
-template제공 - 기본적인 매핑을 지원하지만 원하지 않으면 false로 셋팅하기 셋팅되면 로그의 인덱스가 logstash-%{YYYY.MM.DD}로 저장이 됨   
+template제공 - 기본적인 매핑을 지원하지만 원하지 않으면 false로 셋팅하기 
+
+기본값 true로 셋팅되면 로그의 인덱스가 logstash-%{YYYY.MM.DD}로 저장이 됨 
+
 원하는 index이름을 지정
 
 ## filebeat
