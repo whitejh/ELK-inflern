@@ -119,6 +119,8 @@ filebeat의 인풋 설정 type두번째를 넣고싶으면 -로 시작되는 typ
 
 키바나에 설정된 주소값 - 만약 원격이면 localhost말고 원격 주소를 적어야된다. 
 
+키바나는 filebeat에 내장되어 대쉬보드를 꾸미고 싶은 경우 localhost의 정보를 통해 가능하다.
+
 - conf.d에 설정파일들을 옮겨주고 모든 설정파일을 지정함. 따라서 주어진 예시의 설정파일을 옮겨주는 과정
   
 ![image](https://user-images.githubusercontent.com/56130599/89098984-22bf5900-d427-11ea-8034-38fe1e615707.png)  
