@@ -89,8 +89,8 @@ filebeat는 중앙 집중화된 작업을 간편하게 유지해 줌.
 대시보드도 이미 구현된 것들이 있음.
 
 ## 2. 로그스태시, 파일비트 설치와 실행
-- 실행파일은 usr/share에, 설정 파일은 /etc/에 있음!
-- 
+- 실행파일은 usr/share에, 설정 파일은 /etc에 있음!
+
 ![image](https://user-images.githubusercontent.com/56130599/89098911-85fcbb80-d426-11ea-809f-5d57d88ff1ba.png)
 
 ![image](https://user-images.githubusercontent.com/56130599/89098917-8eed8d00-d426-11ea-806f-a10139644c2a.png)   
