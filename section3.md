@@ -148,6 +148,8 @@ sample 코드를 하나 복사해서 conf.d 파일(first-pipeline.conf)에 넣�
 first-pipeline.conf 파일을 열면 json형태로 구현된 내용들을 볼 수 있다.   
 output의 이름으로 세팅되도록 index가 조정되어있다.    
 
+**logstash의 pipelines.yml파일에 conf의 설정파일로 해당 설정 예제 샘플에 input과 output이 미리 설정**
+
 ![image](https://user-images.githubusercontent.com/56130599/89099026-69ad4e80-d427-11ea-81be-299c42c3412b.png)   
 
 ![image](https://user-images.githubusercontent.com/56130599/89099032-7336b680-d427-11ea-9792-2f95a009c238.png) 
