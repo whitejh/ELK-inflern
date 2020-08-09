@@ -105,9 +105,11 @@ logstash로 원하는 데이터를 보내고 출력하는 방식으로 사용
 
 ![image](https://user-images.githubusercontent.com/56130599/89098942-b5132d00-d426-11ea-8720-07a2eabc1ae3.png)  
 
-enabled 이 false면 동작을 안함 true로 바꿔줘야됨 path에 설정되어있는 로그들을 가져옴
-filebeat의 인풋 설정 type두번째를 넣고싶으면     
--로 시작되는 type을 넣어주면 됨.  
+enabled 이 false면 동작을 안함 true로 바꿔줘야됨 
+
+path에 설정되어있는 로그들을 가져옴
+
+filebeat의 인풋 설정 type두번째를 넣고싶으면 -로 시작되는 type을 넣어주면 됨.  
 
 ![image](https://user-images.githubusercontent.com/56130599/89098959-d6741900-d426-11ea-9e30-6bc232299a97.png)   
 
