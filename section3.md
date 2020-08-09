@@ -126,9 +126,14 @@ logstash output을 활성화 한다.
 
 ![image](https://user-images.githubusercontent.com/56130599/89098974-04595d80-d427-11ea-9571-02d1d512ca10.png)    
 
-키바나에 설정된 주소값 - 만약 원격이면 localhost말고 원격 주소를 적어야된다. 
+키바나에 설정된 주소값 - 만약 원격이면 localhost말고 원격 주소를 적어야된다.
 
-키바나는 filebeat에 내장되어 대쉬보드를 꾸미고 싶은 경우 localhost의 정보를 통해 가능하다.
+filbeat 내장기능에 filebeat를 통해서 kibana에 대쉬보드를 만드는 역할이 있다.
+
+대쉬보드를 꾸미고 싶은 경우 localhost의 정보를 통해 가능하다.
+
+현재 서버에 있다고 가정하고 host 서버를 localhost로 적어놓은 것.
+
 
 - conf.d에 설정파일들을 옮겨주고 모든 설정파일을 지정함. 따라서 주어진 예시의 설정파일을 옮겨주는 과정
   
