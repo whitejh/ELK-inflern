@@ -115,12 +115,12 @@ xml 파일로 작성. 그래야 더 완벽하게 로깅할 수 있다.
 ### 255번 Error
 - 오류 잘 감지하기
 
-![18](./img/18.PNG)  
+![18](./img/18.png)  
 ### 19번 WmiEvent
 - WMI는 Window Manager Interface이다. 
 - WMI API는 악성코드도 같이 사용할 수 있다.
 
-![19](./img/19.PNG)      
+![19](./img/19.png)      
 
 총 21개의 로깅
 
@@ -176,14 +176,14 @@ sysmon shell은 processcreate 등의 이벤트들을 각각의 xml을 정의해�
 xml을 구현하거나 log export를 할 수 있다.
 처음에 파일을 채취하거나 구성할 때 유용하게 쓸 수 있다.
 
-![42](./img/42.PNG)    
+![42](./img/42.png)    
 shell에서 rule을 정의하는 화면      
-![43](./img/43.PNG)     
+![43](./img/43.png)     
 Export Sysmon logs : 로그들을 xml파일로 추출   
-![44](./img/44.PNG)    
+![44](./img/44.png)    
 처음 불러 오는 데이터는 Import Sysmon Event logs를 누르고  
 import한 데이터를 또 불러올려면 Load existing data를 누른다.   
-![45](./img/45.PNG)      
+![45](./img/45.png)      
 Geolocate IP에 체크를 해야 네트워크 ip가 좌표로 찍힌다.
 
 ## Windows EVTX Samples 분석 (이벤트 샘플 분석)
@@ -209,4 +209,5 @@ dll 파일이 언제 쓰여졌는지 이런 것도 확인 꼭 하기.
 sudo -i : 관리자 권한으로 실행하는 것   
 
 ![47](./img/47.PNG) 
+
 sysmon.conf 파일을 통해서 또 하나의 포트를 열고 그것으로 통신하도록 구현
