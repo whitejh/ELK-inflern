@@ -114,16 +114,6 @@ path에 설정되어있는 로그들을 가져옴
 
 filebeat의 인풋 설정 type두번째를 넣고싶으면 -로 시작되는 type을 넣어주면 됨.  
 
-![image](https://user-images.githubusercontent.com/56130599/89098959-d6741900-d426-11ea-9e30-6bc232299a97.png)   
-
-filebeat를 elasticsearch와 직접 연결하지 않기 때문에 주석처리 
-
-logstash output을 활성화 한다.
-
-거의 대부분이 5044의 포트를 활용하기 때문에 host처리
-
-#로 주석 처리되어있던 output.logstash를 주석해제하고 활성화 시킨다.
-
 ![image](https://user-images.githubusercontent.com/56130599/89098974-04595d80-d427-11ea-9571-02d1d512ca10.png)    
 
 키바나에 설정된 주소값 - 만약 원격이면 localhost말고 원격 주소를 적어야된다.
@@ -134,6 +124,15 @@ filbeat 내장기능에 filebeat를 통해서 kibana에 대쉬보드를 만드�
 
 현재 서버에 있다고 가정하고 host 서버를 localhost로 적어놓은 것.
 
+![image](https://user-images.githubusercontent.com/56130599/89098959-d6741900-d426-11ea-9e30-6bc232299a97.png)   
+
+filebeat를 elasticsearch와 직접 연결하지 않기 때문에 주석처리 
+
+logstash output을 활성화 한다.
+
+거의 대부분이 5044의 포트를 활용하기 때문에 host처리
+
+#로 주석 처리되어있던 output.logstash를 주석해제하고 활성화 시킨다.
 
 - conf.d에 설정파일들을 옮겨주고 모든 설정파일을 지정함. 따라서 주어진 예시의 설정파일을 옮겨주는 과정
   
