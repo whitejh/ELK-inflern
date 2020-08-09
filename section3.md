@@ -99,6 +99,8 @@ filebeat는 중앙 집중화된 작업을 간편하게 유지해 줌.
   
 ![image](https://user-images.githubusercontent.com/56130599/89098932-a0cf3000-d426-11ea-8b90-4449e8ba6bb2.png)   
 
+logstash로 원하는 데이터를 보내고 출력하는 방식으로 사용
+
 123123123 넣은 데이터가 메시지로 그대로 출력된다.
 
 ![image](https://user-images.githubusercontent.com/56130599/89098942-b5132d00-d426-11ea-8720-07a2eabc1ae3.png)  
