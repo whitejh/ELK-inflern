@@ -144,10 +144,10 @@ Process terminated(종료 시간)은 중요할 수도 있다.
 ![26](./img/26.PNG)
 요구사항
 
-![27](./img/27.PNG)
+![27](./img/27.png)
 conf 설정 값
 
-![28](./img/28.PNG)
+![28](./img/28.png)
 성공적인 적용!
 
 # SysmonTools 소개와 설치
